@@ -8,11 +8,12 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node source/cli.tsx",
-    "pretest": "npm run build",
+    "fsl": "fsl",
     "lint:": "xo",
-    "test": "jest",
-    "test:w": "jest --watch"
+    "pretest": "npm run build",
+    "start": "ts-node source/cli.tsx",
+    "test:w": "jest --watch",
+    "test": "jest"
   },
   "files": [
     "dist/cli.js"
@@ -44,6 +45,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@clowd/fsl": "^1.0.5",
     "@sindresorhus/tsconfig": "^3.0.1",
     "@types/jest": "^29.2.4",
     "@types/react": "^18.0.26",

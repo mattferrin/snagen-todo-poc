@@ -1,0 +1,8 @@
+{
+  "root": "source",
+  "rules": [
+    "source/*/components/__snapshots__/*.test.tsx.snap",
+    "source/*/components/*.tsx",
+    "source/cli.tsx"
+  ]
+}

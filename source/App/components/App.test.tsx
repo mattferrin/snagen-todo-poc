@@ -1,6 +1,6 @@
-import App from "./ui";
 import ShallowRenderer from "react-test-renderer/shallow";
 import React from "react";
+import App from "./App";
 
 type SnapInput = {
   stabileSortId: string;
