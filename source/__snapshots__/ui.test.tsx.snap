@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a6fb76eb-b9bb-4711-bcbe-2168031eecf4 1`] = `
+{
+  "proved jest is working": {
+    "result": <Text
+      bold={false}
+      dimColor={false}
+      italic={false}
+      strikethrough={false}
+      underline={false}
+      wrap="wrap"
+    >
+      Hello, 
+      <Text
+        bold={false}
+        color="green"
+        dimColor={false}
+        italic={false}
+        strikethrough={false}
+        underline={false}
+        wrap="wrap"
+      >
+        Matt
+      </Text>
+    </Text>,
+  },
+}
+`;
