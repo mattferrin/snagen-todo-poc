@@ -13,7 +13,9 @@
     "pretest": "npm run build",
     "start": "ts-node source/cli.tsx",
     "test:w": "jest --watch",
-    "test": "jest"
+    "test": "jest",
+    "tsc:w": "tsc -w",
+    "tsc": "tsc"
   },
   "files": [
     "dist/cli.js"
