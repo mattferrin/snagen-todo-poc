@@ -3,9 +3,9 @@ import React from "react";
 import App from "./App";
 
 type SnapInput = {
-  stabileSortId: string;
-  comment: string | null;
-  props: Parameters<typeof App>[0];
+  readonly stabileSortId: string;
+  readonly comment: string | null;
+  readonly props: Parameters<typeof App>[0];
 };
 
 function snap(input: SnapInput): void {

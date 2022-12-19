@@ -25,4 +25,5 @@ const cli = meow(
   }
 );
 
+// eslint-disable-next-line functional/no-expression-statement
 render(<App name={cli.flags.name} />);
