@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-import React from 'react';
-import {render} from 'ink';
-import meow from 'meow';
-import App from './App/components/App';
+import React from "react";
+import { render } from "ink";
+import meow from "meow";
+import App from "./App/components/App";
 
-const cli = meow(`
+const cli = meow(
+  `
 	Usage
 	  $ snagen
 
@@ -14,12 +15,14 @@ const cli = meow(`
 	Examples
 	  $ snagen --name=Jane
 	  Hello, Jane
-`, {
-	flags: {
-		name: {
-			type: 'string'
-		}
-	}
-});
+`,
+  {
+    flags: {
+      name: {
+        type: "string",
+      },
+    },
+  }
+);
 
-render(<App name={cli.flags.name}/>);
+render(<App name={cli.flags.name} />);
